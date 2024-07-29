@@ -15,5 +15,3 @@ const port = 9090;
 httpServer.listen(9090);
 
 console.log(`Server listening on port ${port}`);
-
-io.send("connection");
